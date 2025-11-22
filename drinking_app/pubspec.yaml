@@ -1,0 +1,29 @@
+name: drinking_app
+description: A new Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  csv: ^5.0.1
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  path_provider: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/glass.png
+    - assets/images/glass2.png
+    - assets/images/splash.png
+    - assets/csv/
